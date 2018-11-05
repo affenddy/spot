@@ -30,7 +30,7 @@
 	}
 
 
-	if (isset($_POST['registerButton]')) {
+	if (isset($_POST['registerButton'])) {
 
 	       // echo "Register button was pressed";
 
