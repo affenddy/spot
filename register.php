@@ -1,3 +1,21 @@
+<?php
+
+	if (isset($_POST['loginButton'])) {
+
+		//echo "Login button was pressed";
+
+	}
+
+
+	if (isset($_POST['registerButton]')) {
+
+	       // echo "Register button was pressed";
+
+	}
+
+?>
+
+
 <html>
 	<head>
 		<title>Welcome to Slotify!</title>
