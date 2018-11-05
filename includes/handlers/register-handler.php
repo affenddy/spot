@@ -29,6 +29,26 @@
 
 	}
 
+	function validateUsername($un) {
+
+	}
+
+	function validateFirstName($un) {
+
+	}
+
+	function validateLastName($un) {
+
+	}
+
+	function validateEmails($un) {
+
+	}
+
+	function validatePasswords($un) {
+
+	}
+
 
 	if (isset($_POST['registerButton'])) {
 
@@ -41,6 +61,12 @@
 		$email2 = sanitozeFormString(['email2']);
 		$password = sanitozeFormPassword(['password']);
 		$password2 = sanitozeFormPassword(['password2']);
+
+		validateUsername($username);
+		validateFirstname($firstName);
+		validateLastname($lastName);
+		validateEmails($email, $email2);
+		validatePasswords($password, $password2);
 
 	}
 
